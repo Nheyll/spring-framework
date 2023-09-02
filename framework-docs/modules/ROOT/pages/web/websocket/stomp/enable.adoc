@@ -31,7 +31,7 @@ endpoint over WebSocket, as the following example shows:
 client needs to connect for the WebSocket handshake.
 <2> STOMP messages whose destination header begins with `/app` are routed to
 `@MessageMapping` methods in `@Controller` classes.
-<3> Use the built-in message broker for subscriptions and broadcasting and
+<3> Use the built-in message broker for subscriptions, broadcasting and
 route messages whose destination header begins with `/topic` or `/queue` to the broker.
 
 
